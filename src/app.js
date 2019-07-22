@@ -3,8 +3,8 @@ var app = express();
 var path = require('path');
 
 // controllers
-var homeController = require('./controllers/homeroutes');
-var salesController = require('./controllers/salesroutes');
+var homeController = require('./controllers/homecontroller');
+var salesController = require('./controllers/salescontroller');
 
 var public = path.join(__dirname, 'public');
 console.log("Useing public path " + public);
